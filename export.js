@@ -3,7 +3,7 @@ var $http = prism.$injector.get('$http');
 
 var pdfButton = {
   id: 'exportAll',
-  caption: 'export all dashboards',
+  caption: 'Bulk Export',
   desc: 'export dashboards qa\'s plugin',
   execute: function () {
     $dom.modal({
